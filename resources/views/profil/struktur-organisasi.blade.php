@@ -58,9 +58,6 @@
                 <h4>SMP PGRI CIRANJANG</h4>
                 <p class="lead">Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive,
                     mobile-first projects on the web.</p>
-                <!-- <a class="btn btn-warning btn-lg" href="#" role="button">Loream</a>
-      <a class="btn btn-success btn-lg" href="/" role="button">Kembali</a> -->
-
             </div>
         </div>
     </section>

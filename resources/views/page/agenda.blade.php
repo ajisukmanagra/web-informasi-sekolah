@@ -20,15 +20,19 @@
 @stop
 
 section('content')
-<div class="row mt-5">
-    @foreach($agendas as $agenda)
-    <div class="card-body">
-        <h6>{{$k->judul}}</h6>
-        <td>{{ $agenda->lokasi}}</td>
-        <p class="mb-0">{{$k->tanggal}}</p>
+<div class="container">
+    <div class="card">
+        <div class="row mt-5">
+            @foreach($agendas as $agenda)
+            <div class="card-body">
+                <h6>{{$k->judul}}</h6>
+                <td>{{ $agenda->lokasi}}</td>
+                <p class="mb-0">{{$k->tanggal}}</p>
+            </div>
+        </div>
+        </div>
+        @endforeach
+        </div>
     </div>
-</div>
-</div>
-@endforeach
 </div>
 @stop

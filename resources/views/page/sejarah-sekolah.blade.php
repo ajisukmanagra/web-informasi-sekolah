@@ -20,13 +20,17 @@
 @stop
 
 @section('content')
-<center>
-    <img src="/image/logo/logo.png" alt="" class="img img-thumbnail border-0" width="250">
-</center>
-<br>
-<p>
-    Pada tahun 1959 SMP PGRI Ciranjang bergabung disatu bangunan dengan SDN Cipeuyeum 1 . 
-    Kemudian berpindah dan mendirikan bangunan sendiri pada juli 1984 diatas tanah desa. Saat itu SMP PGRI Ciranjang di Pimpin Oleh Bapak Hj Oyo Sutisna, jumlah kelas Masih 2 Rombel. Seiring berjalannya waktu bapak Hj. Oyo Sutisna pensiun dan digantikan Oleh Bapak H. Enay Sunarya, M.Pd. Pada Tahun 2000 Kepala SMP PGRI Ciranjang oleh Bapak Enay Sunarya, M.Pd. Jumlah Rombel semakin bertambah menjadi 6 Rombel dan meningkat Hingga 15 Rombel. 
-    dan Bangunannya pun dari 1 lantai berubah menjadi 2 lantai.
-</p>
+<div class="container">
+    <div class="header">
+        <center>
+            <img src="/image/logo/logo.png" alt="" class="img img-thumbnail border-0" width="250">
+        </center>
+        <br>
+        <p>
+            Pada tahun 1959 SMP PGRI Ciranjang bergabung disatu bangunan dengan SDN Cipeuyeum 1 . 
+            Kemudian berpindah dan mendirikan bangunan sendiri pada juli 1984 diatas tanah desa. Saat itu SMP PGRI Ciranjang di Pimpin Oleh Bapak Hj Oyo Sutisna, jumlah kelas Masih 2 Rombel. Seiring berjalannya waktu bapak Hj. Oyo Sutisna pensiun dan digantikan Oleh Bapak H. Enay Sunarya, M.Pd. Pada Tahun 2000 Kepala SMP PGRI Ciranjang oleh Bapak Enay Sunarya, M.Pd. Jumlah Rombel semakin bertambah menjadi 6 Rombel dan meningkat Hingga 15 Rombel. 
+            dan Bangunannya pun dari 1 lantai berubah menjadi 2 lantai.
+        </p>
+    </div>
+</div>
 @stop
