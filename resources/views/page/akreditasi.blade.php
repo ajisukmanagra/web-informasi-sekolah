@@ -12,7 +12,7 @@
 <nav aria-label="breadcrumb" style="background:#0099ff;color:#fff;">
     <div class="container">
         <ol class="breadcrumb" style="background:#0099ff;color:#fff;">
-            <li class="breadcrumb-item"><a href="/" style="color:#fff;text-decoration:none;"><i class="fas fa-home"></i> Home</a></li>
+            <li class="breadcrumb-item"><a href="/" style="color:#fff;text-decoration:none;"><i class="fas fa-home"></i>Home</a></li>
             <li class="breadcrumb-item"><a href="#" style="color:#fff;text-decoration:none;"><i class="fas fa-chart-line"></i> Akreditasi</a></li>
         </ol>
     </div>

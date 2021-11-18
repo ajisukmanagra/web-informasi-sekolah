@@ -5,15 +5,18 @@
 @section('header')
 <header class="pt-3 border-bottom">
     <div class="container pt-md-1 pb-md-1">
-        <h3 class="bd-title mt-3 mb-4 font-weight-bold" style="color: #0099ff;"><i class="fas fa-building" aria-hidden="true"></i> PROFILE SEKOLAH</h3>
+        <h3 class="bd-title mt-3 mb-4 font-weight-bold" style="color: #0099ff;"><i class="fas fa-building"
+                aria-hidden="true"></i> PROFILE SEKOLAH</h3>
     </div>
 </header>
 
 <nav aria-label="breadcrumb" style="background:#0099ff;color:#fff;">
     <div class="container">
         <ol class="breadcrumb" style="background:#0099ff;color:#fff;">
-            <li class="breadcrumb-item"><a href="/" style="color:#fff;text-decoration:none;"><i class="fas fa-home"></i> Home</a></li>
-            <li class="breadcrumb-item"><a href="#" style="color:#fff;text-decoration:none;"><i class="fas fa-building"></i> Profile</a></li>
+            <li class="breadcrumb-item"><a href="/" style="color:#fff;text-decoration:none;"><i class="fas fa-home"></i>
+                    Home</a></li>
+            <li class="breadcrumb-item"><a href="#" style="color:#fff;text-decoration:none;"><i
+                        class="fas fa-building"></i> Profile</a></li>
         </ol>
     </div>
 </nav>
@@ -25,9 +28,9 @@
     <div class="row">
         <div class="col-md-6">
             <div class="card  shadow mt-4">
-                
+
                 <div class="card-body">
-                
+
                     <div class="table-responsive">
                         <center>
                             <table class="mt-3">
@@ -94,7 +97,7 @@
                                     <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
                                     <td>Ciranjang</td>
                                 </tr>
-                                
+
                                 <tr>
                                     <td>&nbsp;</td>
                                     <td>&nbsp;</td>
@@ -106,7 +109,7 @@
                                     <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
                                     <td>Cianjur</td>
                                 </tr>
-                                
+
                                 <tr>
                                     <td>&nbsp;</td>
                                     <td>&nbsp;</td>
@@ -118,7 +121,7 @@
                                     <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
                                     <td>Jawa Barat</td>
                                 </tr>
-                                
+
                                 <tr>
                                     <td>&nbsp;</td>
                                     <td>&nbsp;</td>
@@ -130,7 +133,7 @@
                                     <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
                                     <td>0877-0102-6553</td>
                                 </tr>
-                                
+
                                 <tr>
                                     <td>&nbsp;</td>
                                     <td>&nbsp;</td>
@@ -142,19 +145,19 @@
                                     <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
                                     <td>smppgriciranjang@gmail.com</td>
                                 </tr>
-                                
+
                                 <tr>
                                     <td>&nbsp;</td>
                                     <td>&nbsp;</td>
                                     <td>&nbsp;</td>
                                 </tr>
-                                
+
                                 <tr style="font-size: 14px;">
                                     <td>SK Pendirian Sekolah</td>
                                     <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
                                     <td>84/YP/PGRI/V/Kpt/77</td>
                                 </tr>
-                                
+
                                 <tr>
                                     <td>&nbsp;</td>
                                     <td>&nbsp;</td>
@@ -166,7 +169,7 @@
                                     <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
                                     <td>13-03-1977</td>
                                 </tr>
-                                
+
                                 <tr>
                                     <td>&nbsp;</td>
                                     <td>&nbsp;</td>
@@ -178,7 +181,7 @@
                                     <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
                                     <td>340186-958058-444113-132028589-1026748810</td>
                                 </tr>
-                                
+
                                 <tr>
                                     <td>&nbsp;</td>
                                     <td>&nbsp;</td>
@@ -190,7 +193,7 @@
                                     <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
                                     <td>13-03-1977</td>
                                 </tr>
-                                
+
                                 <tr>
                                     <td>&nbsp;</td>
                                     <td>&nbsp;</td>
@@ -202,13 +205,13 @@
                                     <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
                                     <td>A</td>
                                 </tr>
-                                
+
                                 <tr>
                                     <td></td>
-                                </tr>   
+                                </tr>
                             </table>
                         </center>
-                        
+
                     </div>
                 </div>
             </div>
@@ -224,7 +227,7 @@
     </div>
 </div>
 
-        
-    
-    
+
+
+
 @stop

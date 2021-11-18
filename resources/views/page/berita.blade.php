@@ -21,26 +21,24 @@
 
 @section('content')
 
-    @foreach($berita as $b)
-    <div class="col-lg-12 mt-5 mb-4">
-        <div class="row">
-            <div class="col-lg-4">
-                <img src="/image/{{$b->gambar}}" alt="" class="img img-thumbnail" style="background:transparent;border:none;border-radius:10px;" width="300">
-            </div>
-            <div class="col-lg-8">
-                <a href="{{route('baca-berita', $b->id)}}" style="color:#0099ff;font-weight:bold;">{{$b->judul}}</a>
-                
-                <p class="mt-3">
-                    <?php
-                        $a =  $b->isi;
-                        echo substr($a,0,400)."<br>"."...";
-                    ?>
-                </p>
-                
-            </div>
+@foreach($berita as $b)
+<div class="col-lg-12 mt-5 mb-4">
+    <div class="row">
+        <div class="col-lg-4">
+            <img src="/image/{{$b->gambar}}" alt="" class="img img-thumbnail"
+                style="background:transparent;border:none;border-radius:10px;" width="300">
         </div>
-        
-        
-    </div>    
-    @endforeach
-@stop 
+        <div class="col-lg-8">
+            <a href="{{route('baca-berita', $b->id)}}" style="color:#0099ff;font-weight:bold;">{{$b->judul}}</a>
+
+            <p class="mt-3">
+                <?php
+                    $a =  $b->isi;
+                    echo substr($a,0,400)."<br>"."...";
+                ?>
+            </p>
+        </div>
+    </div>
+</div>
+@endforeach
+@stop
