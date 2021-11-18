@@ -1,4 +1,4 @@
-### APLIKASI GUEST BOOK DIGITAL oleh TIM RPL | SMK NURUL ISLAM
+### APLIKASI WEB SEKOLAH oleh TIM RPL | SMK NURUL ISLAM
 
 #### BUILD WITH LARAVEL 8
 
@@ -22,5 +22,5 @@ Bila menemukan kendala/bug, harap lapor ke nama nama orang berikut
 <ol>
    <li>M PARIJAN</li>
    <li>WA 088223913445</li>
+   <li>KELAS 12 RPL 2</li>
 </ol>
-kelas **XII RPL 2**
