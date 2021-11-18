@@ -13,9 +13,6 @@
 8. Jalankan perintah **php artisan migrate**
 9. Lalu dowload data sql di link drive ini <a href="https://drive.google.com/file/d/1yA02YWh4gku8iBpuOigYdd3wFIDEPEqh/view?usp=sharing"> data sql</a> 
 
-- Untuk login admin, silahkan buka folder **seeder**
-- Password SMPT mail silahkan hubungi ke TIM RPL
-
 Note: Aplikasi belum selesai sepenuhnya, jadi masih ada bagian yang kosong/rusak.
 Bila menemukan kendala/bug, harap lapor ke nama nama orang berikut
 <ol>
