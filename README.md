@@ -12,10 +12,9 @@
 7. Buat database dengan nama yang sama di file **.env** bagian **DB_DATABASE**
 8. Jalankan perintah **php artisan migrate**
 9. Lalu dowload data sql di link drive ini <a href="https://drive.google.com/file/d/1yA02YWh4gku8iBpuOigYdd3wFIDEPEqh/view?usp=sharing"> data sql</a> 
-10. Jalankan perintah **php artisan storage:link**
 
 - Untuk login admin, silahkan buka folder **seeder**
-- Password SMPT mail silahkan hubungi ke Azickri
+- Password SMPT mail silahkan hubungi ke TIM RPL
 
 Note: Aplikasi belum selesai sepenuhnya, jadi masih ada bagian yang kosong/rusak.
 Bila menemukan kendala/bug, harap lapor ke nama nama orang berikut
