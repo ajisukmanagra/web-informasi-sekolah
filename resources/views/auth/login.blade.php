@@ -53,7 +53,7 @@
         
         .login-form button {
             background-color:  #E0E0E0;
-            background-image: linear-gradient(19deg, #21D4FD 0%, #0099ff 100%);
+            background-image: linear-gradient(19deg, #0c84d3 0%, #0666a7 100%);
             width: 100%;
             color: white;
             border: none;
@@ -110,7 +110,7 @@
                 opacity: 0.8;
             }
             .login-form input[type = "text"]:focus, .login-form input[type = "password"]:focus {
-                border: 2px #21D4FD solid;
+                border: 2px #0e98b8 solid;
             }
             .login-form input[type = "text"], .login-form input[type = "password"] {
                 width: 100%;
@@ -133,10 +133,10 @@
     <div class="box">
 		<form class="login-form" action="{{route('login')}}" method="POST">
             <center>
-                <img src="{{asset('image/logo/logo.png')}}" alt="" class="img img-thumbnail border-0" width="200">
+                <img src="{{asset('image/logo/logo.png')}}" alt="" class="img img-thumbnail border-0" width="170px">
             </center>
-        
 			<h1 class="font-login"> Login</h1>
+            <hr>
                 @csrf           
                 <input type="text" name="email" placeholder="email" >
                 @error('username')
@@ -151,7 +151,7 @@
                     </div>
                 @enderror
                 <button type="submit">Login</button>
-                <span style="width:48%; text-align:left;  display: inline-block;"><a class="small-text" href="/">Lupa Password?</a></span>
+                <span style="width:48%; text-align:left;  display: inline-block;"><a class="small-text" href="/">Home</a></span>
 		</form>
 		
 	</div>
