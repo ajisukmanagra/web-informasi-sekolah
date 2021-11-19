@@ -57,7 +57,7 @@
         font-size: 30px;
         border: none;
         outline: none;
-        background-color: #10A5F5;
+        background-color: #103af5;
         color: white;
         cursor: pointer;
         padding: 15px;
@@ -65,7 +65,7 @@
     }
 
     #myBtn:hover {
-        background-color: #10A5F5;
+        background-color: #1032f5;
     }
 
     .font12 {
@@ -99,7 +99,7 @@
         }
 
         #foot {
-            background: #10A5F5;
+            background: #1045f5;
             height: 800px;
         }
 
@@ -139,7 +139,7 @@
 
     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-angle-up"></i></button>
 
-    <nav class="navbar navbar-expand-md  navbar-dark" style="background: #10A5F5;">
+    <nav class="navbar navbar-expand-md  navbar-dark" style="background: #103af5;">
         <div class="container-fluid">
             <ul class="navbar-nav ml-auto">
                 <div class="row">
@@ -169,7 +169,7 @@
                             style="border:none;background:transparent;">&emsp;
                     </li>
                     <li class="navbar-nav">
-                        <h5 class="bd-title mt-4 mb-0 font-weight-bold" style="color:#10A5F5;">SMP PGRI CIRANJANG</h5>
+                        <h5 class="bd-title mt-4 mb-0 font-weight-bold" style="color:#1027f5;">SMP PGRI CIRANJANG</h5>
                         <p class="mt-0 font-size-sm">Unggul, Santun, Bersih Dan Berakhlaq</p>
                     </li>
 
@@ -180,10 +180,10 @@
     </header>
 
     <!-- Navbar Menu -->
-    <nav class="navbar navbar-expand-md navbar-dark" style="background:#10A5F5;border:5px #10A5F5;">
+    <nav class="navbar navbar-expand-md navbar-dark" style="background:#101ff5;border:5px #1027f5;">
         <div class="container-fluid">
             <!-- Toggler/collapsibe Button -->
-            <button class="navbar-toggler" style="background-color:#2980b9;" type="button" data-toggle="collapse"
+            <button class="navbar-toggler" style="background-color:#1c4dd1;" type="button" data-toggle="collapse"
                 data-target="#collapsibleNavbar">
                 <i class="fa fa-bars" style="color:#fff;"></i>
             </button>
@@ -269,7 +269,7 @@
 
                     <!-- berita section -->
                     <div class="col-md-12 mb-3" id="berita">
-                        <h4 class="font18" style="color:#10A5F5;"><i class="fas fa-clipboard-list"></i> BERITA TERBARU
+                        <h4 class="font18" style="color:#1027f5;"><i class="fas fa-clipboard-list"></i> BERITA TERBARU
                         </h4>
                     </div>
 
@@ -299,7 +299,7 @@
                     </div>
                     <div class="col-md-12">
                         <a href="{{route('berita')}}" class="font-weight-bold text-decoration-none font14 mb-3"
-                            style="color: #10A5F5;">Lihat Lebih Banyak</a>
+                            style="color: #1027f5;">Lihat Lebih Banyak</a>
                     </div>
 
                     <!-- end berita section -->
@@ -307,7 +307,7 @@
 
                     <!-- fasilitas section -->
                     <div class="col-md-12 mb-3 mt-4" id="fasilitas">
-                        <h4 class="font18" style="color:#10A5F5;"><i class="fas fa-images"></i> FASILITAS SEKOLAH</h4>
+                        <h4 class="font18" style="color:#103af5;"><i class="fas fa-images"></i> FASILITAS SEKOLAH</h4>
                     </div>
 
                     <div class="col-md-12">
@@ -330,13 +330,13 @@
 
                     <div class="col-md-12">
                         <a href="{{route('galeri')}}" class="font-weight-bold font14 text-decoration-none mb-3"
-                            style="color: #10A5F5;">Lihat Lebih Banyak</a>
+                            style="color: #101ff5;">Lihat Lebih Banyak</a>
                     </div>
                     <!-- end fasilitas section -->
 
                     <!-- eskul section -->
                     <div class="col-md-12 mb-3 mt-4" id="eskul">
-                        <h4 class="font18" style="color:#10A5F5;"><i class="fas fa-video"></i> EKSTRAKULIKULER</h4>
+                        <h4 class="font18" style="color:#1027f5;"><i class="fas fa-video"></i> EKSTRAKULIKULER</h4>
                     </div>
 
                     <div class="col-md-12">
@@ -359,7 +359,7 @@
 
                     <div class="col-md-12">
                         <a href="{{route('eskul')}}" class="font-weight-bold font14 text-decoration-none mb-3"
-                            style="color: #10A5F5;">Lihat Lebih Banyak</a>
+                            style="color: #1045f5;">Lihat Lebih Banyak</a>
                     </div>
 
                     <!-- end eskul section -->
@@ -370,7 +370,7 @@
 
                 <!-- agenda section -->
                 <div class="title mb-4">
-                    <h4 class="font18" style="color:#10A5F5;"><i class="fa fa-calendar" aria-hidden="true"></i> AGENDA
+                    <h4 class="font18" style="color:#104df5;"><i class="fa fa-calendar" aria-hidden="true"></i> AGENDA
                         TERBARU</h4>
                 </div>
 
@@ -394,7 +394,7 @@
 
                 <!-- kategori section -->
                 <div class="title mb-4 mt-5">
-                    <h4 class="font18" style="color:#10A5F5;"><i class="fa fa-folder" aria-hidden="true"></i> PENGUMUMAN
+                    <h4 class="font18" style="color:#103af5;"><i class="fa fa-folder" aria-hidden="true"></i> PENGUMUMAN
                     </h4>
                 </div>
 
@@ -416,17 +416,17 @@
     <!-- prestasi -->
     <div class="container-fluid">
         <div class="col-md-12 mb-3" id="prestasi">
-            <h4 class="text-center font18" style="color:#10A5F5;"><i class="fas fa-trophy"></i> PRESTASI SEKOLAH</h4>
+            <h4 class="text-center font18" style="color:#1f10f5;"><i class="fas fa-trophy"></i> PRESTASI SEKOLAH</h4>
         </div>
         <div class="col-md-12">
             <div class="table-responsive">
                 <table class="table table-striped table-bordered">
                     <thead class="text-center">
-                        <th style="background:#10A5F5;color:#fff;">No</th>
-                        <th style="background:#10A5F5;color:#fff;">Nama&nbsp;Lomba</th>
-                        <th style="background:#10A5F5;color:#fff;">Bidang</th>
-                        <th style="background:#10A5F5;color:#fff;">Juara</th>
-                        <th style="background:#10A5F5;color:#fff;">Keterangan</th>
+                        <th style="background:#101ff5;color:#fff;">No</th>
+                        <th style="background:#1032f5;color:#fff;">Nama&nbsp;Lomba</th>
+                        <th style="background:#104df5;color:#fff;">Bidang</th>
+                        <th style="background:#103af5;color:#fff;">Juara</th>
+                        <th style="background:#1027f5;color:#fff;">Keterangan</th>
                     </thead>
                     <?php $no = 1; ?>
 
@@ -446,13 +446,13 @@
         </div>
         <div class="col-md-12">
             <a href="{{route('prestasi')}}" class="font-weight-bold font14 text-decoration-none mb-3"
-                style="color: #10A5F5;">Lihat Lebih Banyak</a>
+                style="color: #103af5;">Lihat Lebih Banyak</a>
         </div>
     </div>
 
 
     <br><br>
-    <footer class="mt-5" id="foot">
+    <footer class="mt-5" id="foot" style="background: #101ff5">
         <div class="col-md-12">
             <div class="row">
                 <div class="col-md-4 col-12">

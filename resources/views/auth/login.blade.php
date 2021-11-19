@@ -151,7 +151,8 @@
                     </div>
                 @enderror
                 <button type="submit">Login</button>
-                <span style="width:48%; text-align:left;  display: inline-block;"><a class="small-text" href="/">Home</a></span>
+                <span style="width:48%; text-align:left;  display: inline-block;">
+                <a class="small-text" href="/">Lupa Password ?</a></span>
 		</form>
 		
 	</div>

@@ -9,9 +9,9 @@
     </div>
 </header>
 
-<nav aria-label="breadcrumb" style="background:#0099ff;color:#fff;">
+<nav aria-label="breadcrumb" style="background:#001aff;color:#fff;">
     <div class="container">
-        <ol class="breadcrumb" style="background:#0099ff;color:#fff;">
+        <ol class="breadcrumb" style="background:#003cff;color:#fff;">
             <li class="breadcrumb-item"><a href="/" style="color:#fff;text-decoration:none;"><i class="fas fa-home"></i> Home</a></li>
             <li class="breadcrumb-item"><a href="#" style="color:#fff;text-decoration:none;"><i class="fas fa-camera"></i> Ekstrakulikuler</a></li>
         </ol>

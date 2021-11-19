@@ -5,13 +5,13 @@
 @section('header')
 <header class="pt-3 border-bottom">
     <div class="container pt-md-1 pb-md-1">
-        <h3 class="bd-title mt-3 mb-4 font-weight-bold" style="color: #0099ff;"><i class="fa fa-trophy" aria-hidden="true"></i> PRESTASI</h3>
+        <h3 class="bd-title mt-3 mb-4 font-weight-bold" style="color: #0011ff;"><i class="fa fa-trophy" aria-hidden="true"></i> PRESTASI</h3>
     </div>
 </header>
 
-<nav aria-label="breadcrumb" style="background:#0099ff;color:#fff;">
+<nav aria-label="breadcrumb" style="background:#002fff;color:#fff;">
     <div class="container">
-        <ol class="breadcrumb" style="background:#0099ff;color:#fff;">
+        <ol class="breadcrumb" style="background:#0026ff;color:#fff;">
             <li class="breadcrumb-item"><a href="/" style="color:#fff;text-decoration:none;"><i class="fas fa-home"></i> Beranda</a></li>
             <li class="breadcrumb-item"><a href="#" style="color:#fff;text-decoration:none;"><i class="fas fa-trophy"></i> Prestasi</a></li>
         </ol>
@@ -26,11 +26,11 @@
         <div class="col-lg-12">
             <table class="table table-bordered" id="prestasi">
                 <thead>
-                    <th style="background:#3498db;color:#fff;">No</th>
-                    <th style="background:#3498db;color:#fff;">Nama&nbsp;Lomba</th>
-                    <th style="background:#3498db;color:#fff;">Bidang</th>
-                    <th style="background:#3498db;color:#fff;">Juara</th>
-                    <th style="background:#3498db;color:#fff;">Keterangan</th>
+                    <th style="background:#345bdb;color:#fff;">No</th>
+                    <th style="background:#3453db;color:#fff;">Nama&nbsp;Lomba</th>
+                    <th style="background:#343fdb;color:#fff;">Bidang</th>
+                    <th style="background:#3453db;color:#fff;">Juara</th>
+                    <th style="background:#1845c0;color:#fff;">Keterangan</th>
                 </thead>
                 <?php $no = 1; ?>
                 

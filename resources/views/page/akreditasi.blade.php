@@ -5,13 +5,13 @@
 @section('header')
 <header class="pt-3 border-bottom">
     <div class="container pt-md-1 pb-md-1">
-        <h3 class="bd-title mt-3 mb-4 font-weight-bold" style="color: #0099ff;"><i class="fas fa-chart-line" aria-hidden="true"></i> Akreditasi</h3>
+        <h3 class="bd-title mt-3 mb-4 font-weight-bold" style="color: #001aff;"><i class="fas fa-chart-line" aria-hidden="true"></i> Akreditasi</h3>
     </div>
 </header>
 
-<nav aria-label="breadcrumb" style="background:#0099ff;color:#fff;">
+<nav aria-label="breadcrumb" style="background:#0a43c0;color:#fff;">
     <div class="container">
-        <ol class="breadcrumb" style="background:#0099ff;color:#fff;">
+        <ol class="breadcrumb" style="background:#0a27aa;color:#fff;">
             <li class="breadcrumb-item"><a href="/" style="color:#fff;text-decoration:none;"><i class="fas fa-home"></i>Home</a></li>
             <li class="breadcrumb-item"><a href="#" style="color:#fff;text-decoration:none;"><i class="fas fa-chart-line"></i> Akreditasi</a></li>
         </ol>

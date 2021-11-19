@@ -10,9 +10,9 @@
     </div>
 </header>
 
-<nav aria-label="breadcrumb" style="background:#0099ff;color:#fff;">
+<nav aria-label="breadcrumb" style="background:#001aff;color:#fff;">
     <div class="container">
-        <ol class="breadcrumb" style="background:#0099ff;color:#fff;">
+        <ol class="breadcrumb" style="background:#001aff;color:#fff;">
             <li class="breadcrumb-item"><a href="/" style="color:#fff;text-decoration:none;"><i class="fas fa-home"></i>
                     Home</a></li>
             <li class="breadcrumb-item"><a href="#" style="color:#fff;text-decoration:none;"><i
@@ -34,7 +34,7 @@
                         style="background:transparent;border:none;border-radius:10px;" width="300">
                 </div>
                 <div class="col-lg-8">
-                    <a href="{{route('baca-berita', $b->id)}}" style="color:#0099ff;font-weight:bold;">{{$b->judul}}</a>
+                    <a href="{{route('baca-berita', $b->id)}}" style="color:#0011ff;font-weight:bold;">{{$b->judul}}</a>
 
                     <p class="mt-3">
                     <?php

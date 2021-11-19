@@ -21,10 +21,10 @@
     }
     
 </style>
-<body style="background:#fff;">
+<body style="background:#ffffff(241, 241, 241);">
     
 
-        <nav class="navbar navbar-expand-md  navbar-dark" style="background: #0099ff;">
+        <nav class="navbar navbar-expand-md  navbar-dark" style="background: #0652DD;">
             <div class="container">
                 <!-- Brand -->
                 <a class="navbar-brand" href="#" style="font-size: 16px;font-weight:bold;">SMP PGRI CIRANJANG</a>

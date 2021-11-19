@@ -5,17 +5,17 @@
 @section('header')
 <header class="pt-3 border-bottom">
     <div class="container pt-md-1 pb-md-1">
-        <h3 class="bd-title mt-3 mb-4 font-weight-bold" style="color: #0099ff;"><i class="fas fa-stream"
+        <h3 class="bd-title mt-3 mb-4 font-weight-bold" style="color: #ededee;"><i class="fas fa-stream"
                 aria-hidden="true"></i> Sejarah Sekolah</h3>
     </div>
 </header>
 
-<nav aria-label="breadcrumb" style="background:#0099ff;color:#fff;">
+<nav aria-label="breadcrumb" style="background:#1627c4;color:#fff;">
     <div class="container">
-        <ol class="breadcrumb" style="background:#0099ff;color:#fff;">
+        <ol class="breadcrumb" style="background:#1f1cda;color:#fff;">
             <li class="breadcrumb-item"><a href="/" style="color:#fff;text-decoration:none;"><i class="fas fa-home"></i>
                     Home</a></li>
-            <li class="breadcrumb-item"><a href="#" style="color:#fff;text-decoration:none;"><i
+            <li class="breadcrumb-item"><a href="#" style="color:rgb(233, 233, 233);text-decoration:none;"><i
                         class="fas fa-stream"></i> Sejarah</a></li>
         </ol>
     </div>
