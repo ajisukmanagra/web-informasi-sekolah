@@ -22,7 +22,7 @@
             justify-content: center;
             /* background-color: #10a5f5;
             background-image: linear-gradient(19deg, #10a5f5 0%, #0099ff 100%); */
-            background: url('/image/logo/smp.jpg'), #2f8eed;
+            background: url('/image/logo/smp.jpg'), #2f52ed;
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
@@ -53,7 +53,7 @@
         
         .login-form button {
             background-color:  #E0E0E0;
-            background-image: linear-gradient(19deg, #0c84d3 0%, #0666a7 100%);
+            background-image: linear-gradient(19deg, #0c84d3 0%, #062ca7 100%);
             width: 100%;
             color: white;
             border: none;
@@ -71,7 +71,7 @@
             opacity: 0.8;
         }
         .login-form input[type = "text"]:focus, .login-form input[type = "password"]:focus {
-            border: 2px #21D4FD solid;
+            border: 2px #2154fd solid;
         }
         .login-form input[type = "text"], .login-form input[type = "password"] {
             width: 100%;
@@ -92,7 +92,7 @@
             }
             .login-form button {
                 background-color:  #E0E0E0;
-                background-image: linear-gradient(19deg, #21D4FD 0%, #0099ff 100%);
+                background-image: linear-gradient(19deg, #21D4FD 0%, #002fff 10%);
                 width: 100%;
                 color: white;
                 border: none;
