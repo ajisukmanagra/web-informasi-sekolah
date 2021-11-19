@@ -452,7 +452,7 @@
 
 
     <br><br>
-    <footer class="mt-5" id="foot" style="background: #101ff5">
+    <footer class="mt-5" id="foot" style="background: #222f3e">
         <div class="col-md-12">
             <div class="row">
                 <div class="col-md-4 col-12">
@@ -489,9 +489,11 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="row-10">
             <p class="text-center text-white" style="font-size: 15px;font-weight:bold;padding-top:80px;">Copyright SMP
                 PGRI CIRANJANG | 2020</p>
-        </div>
+           </div>
     </footer>
 
     <script src="{{asset('assets/js/jquery.min.js')}}"></script>
