@@ -19,4 +19,7 @@ Bila menemukan kendala/bug, harap lapor ke nama nama orang berikut
    <li>M PARIJAN</li>
    <li>WA 088223913445</li>
    <li>KELAS 12 RPL 2</li>
+   <li>AGGOTA</li>
+   <li>SENDI NUR CAHYA</li>
+   <li>AJI SUKMA NAGARA</li>
 </ol>
