@@ -268,15 +268,22 @@
                 <div class="row">
 
                     <!-- berita section -->
-                    <div class="col-md-12 mb-3" id="berita">
-                        <h4 class="font18" style="color:#1027f5;"><i class="fas fa-clipboard-list"></i> BERITA TERBARU
-                        </h4>
+                    <div class="container">
+                        <div class="frem">
+                        <div class="col-md-12 mb-3" id="berita">
+                            <h4 class="font18" style="color:#1027f5;"><i class="fas fa-clipboard-list"></i> BERITA
+                                TERBARU
+                            </h4>
+                            <hr>
+                        </div>
+                        </div>
                     </div>
-
-                    <div class="col-md-12">
+                    <div class="container">
+                        <div class="frem">
+                        <div class="col-md-12">
                         <div class="row">
                             @foreach($berita as $b)
-                            <div class="col-md-4 mb-4">
+                            <div class="col-md-5 mb-3">
                                 <div class="card h-100 shadow-sm border-0 rounded-lg">
                                     <div class="card-img">
                                         <img src="/image/{{$b->gambar}}" class="w-100"
@@ -297,19 +304,27 @@
                             @endforeach
                         </div>
                     </div>
-                    <div class="col-md-12">
-                        <a href="{{route('berita')}}" class="font-weight-bold text-decoration-none font14 mb-3"
-                            style="color: #1027f5;">Lihat Lebih Banyak</a>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="col-md-12">
+                            <a href="{{route('berita')}}" class="font-weight-bold text-decoration-none font14 mb-3"
+                                style="color: #1027f5;">Lihat Lebih Banyak</a>
+                            <hr>
+                        </div>
                     </div>
 
                     <!-- end berita section -->
 
 
                     <!-- fasilitas section -->
-                    <div class="col-md-12 mb-3 mt-4" id="fasilitas">
-                        <h4 class="font18" style="color:#103af5;"><i class="fas fa-images"></i> FASILITAS SEKOLAH</h4>
+                    <div class="container">
+                        <div class="col-md-12 mb-3 mt-4" id="fasilitas">
+                            <h4 class="font18" style="color:#103af5;"><i class="fas fa-images"></i> FASILITAS SEKOLAH</h4>
+                        </div>
                     </div>
 
+                    <div class="container">
                     <div class="col-md-12">
                         <div class="row">
                             @foreach($galeri as $g)
@@ -327,19 +342,25 @@
                             @endforeach
                         </div>
                     </div>
+                    </div>
 
-                    <div class="col-md-12">
-                        <a href="{{route('galeri')}}" class="font-weight-bold font14 text-decoration-none mb-3"
-                            style="color: #101ff5;">Lihat Lebih Banyak</a>
+                    <div class="container">
+                        <div class="col-md-12">
+                            <a href="{{route('galeri')}}" class="font-weight-bold font14 text-decoration-none mb-3"
+                                style="color: #101ff5;">Lihat Lebih Banyak</a>
+                        </div>
                     </div>
                     <!-- end fasilitas section -->
 
                     <!-- eskul section -->
-                    <div class="col-md-12 mb-3 mt-4" id="eskul">
-                        <h4 class="font18" style="color:#1027f5;"><i class="fas fa-video"></i> EKSTRAKULIKULER</h4>
+                    <div class="container">
+                        <div class="col-md-12 mb-3 mt-4" id="eskul">
+                            <h4 class="font18" style="color:#1027f5;"><i class="fas fa-video"></i> EKSTRAKULIKULER</h4>
+                        </div>
                     </div>
 
-                    <div class="col-md-12">
+                  <div class="container">
+                  <div class="col-md-12">
                         <div class="row">
                             @foreach($eskul as $e)
                             <div class="col-md-4 mb-4">
@@ -356,10 +377,13 @@
                             @endforeach
                         </div>
                     </div>
+                  </div>
 
-                    <div class="col-md-12">
-                        <a href="{{route('eskul')}}" class="font-weight-bold font14 text-decoration-none mb-3"
-                            style="color: #1045f5;">Lihat Lebih Banyak</a>
+                    <div class="container">
+                        <div class="col-md-12">
+                            <a href="{{route('eskul')}}" class="font-weight-bold font14 text-decoration-none mb-3"
+                                style="color: #1045f5;">Lihat Lebih Banyak</a>
+                        </div>
                     </div>
 
                     <!-- end eskul section -->
@@ -493,7 +517,7 @@
         <div class="row-10">
             <p class="text-center text-white" style="font-size: 15px;font-weight:bold;padding-top:80px;">Copyright SMP
                 PGRI CIRANJANG | 2020</p>
-           </div>
+        </div>
     </footer>
 
     <script src="{{asset('assets/js/jquery.min.js')}}"></script>
